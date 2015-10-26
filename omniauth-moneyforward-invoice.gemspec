@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tyamagu2@gmail.com"]
 
   spec.summary       = %q{OmniAuth OAuth2 Strategy for MoneyForward Invoice.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/moneyforward/omniauth-moneyforward-invoice"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
