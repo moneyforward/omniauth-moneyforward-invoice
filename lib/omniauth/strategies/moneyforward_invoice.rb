@@ -1,3 +1,5 @@
+require 'omniauth/strategies/oauth2'
+
 OmniAuth.config.add_camelization('moneyforward_invoice', 'MoneyForwardInvoice')
 
 module OmniAuth
